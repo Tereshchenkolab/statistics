@@ -9,14 +9,14 @@ This repository is for STATA code developed by Larisa Tereshchenko for statistic
 Larisa Tereshchenko, MD, PhD, <tereshch@ohsu.edu>
 
   
-### GEH Calculation
-See
+### Manuscript ___
+See ___ file
 
-### GEH MATLAB Code
+### Manuscript ___
 See ___ file 
 
-### Test files
-One test file (90757.mat) is provided for GEH calculation testing. Sampling rate 500 Hz. Amplitude resolution 1 µV.
-Raw 12-lead ECG file (12LECG.mat) is provided to illustrate Kors transformation from 12-lead to XYZ (Frank) ECG
+### Manuscript ___
+See ____ file 
 
-### Manuscripts to reference:
+### Manuscript ___
+See _____ file
