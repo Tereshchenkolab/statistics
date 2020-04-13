@@ -10,7 +10,7 @@ Larisa Tereshchenko, MD, PhD, <tereshch@ohsu.edu>
 
   
 ### Manuscript: JHS approved manuscript proposal P1224
-See files: ML JHS V3 crossectional Github.do (machine learning analyses) and JHS V3 crossectional Github.do (mixed models with random intercept)
+See files: JHS P1224 V3 crossectional ML.do (machine learning analyses) and JHS P1224 V3 crossectional.do (mixed models with random intercept)
 
 ### Manuscript ___
 See ___ file 
