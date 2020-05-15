@@ -1,5 +1,8 @@
 ***STATA code for analysis of ARIC manuscript #3333
 ***by Larisa Tereshchenko, MD, PhD <tereshch@ohsu.edu>
+***use STATA 16
+***January-March 2020
+
 use "file in a folder"
 ***Table 1 
 tabulate female score, chi2 column
