@@ -1,4 +1,6 @@
-use "D:\Lora_new\my papers\2020\2020 John GEH stroke\stata data\GEH stroke wide nomiss 2_27_20.dta"
+***STATA code for analysis of ARIC manuscript #3333
+***by Larisa Tereshchenko, MD, PhD <tereshch@ohsu.edu>
+use "file in a folder"
 ***Table 1 
 tabulate female score, chi2 column
 tabulate cvdV1 score, chi2 column
@@ -266,7 +268,7 @@ estat phtest, det
 stcox c.z_QRS_TV1 c.z_qtcV1 c.z_qrsdV1 i.ecgLVHV1 i.PVCV1 i.place_race c.ageV1 i.female i.cvdV1 c.bmiV1 c.whrV1 c.tchV1 c.hdlV1 c.trigV1 i.cholmedV1 c.leisureV1 i.cursmkV1 i.curdrkV1 i.dmV1 i.plaqueV1 i.htnV1 i.htnmedV1 c.sbpV1 c.dbpV1 c.eGFRckdepiV1  c.vrateV1 i.mbeatSVany i.ASA_V1 i.anticoag_V1 i.AVNmedV1 i.abnPaxV1 i.aPTFv1_V1 i.aPRV1 i.AFany i.PACany  i.BBBIVCDV1 
 estat phtest, det
 
-****time-updated model 5
+****time-updated model 5. Use long file
 
 stcox i.IBBB i.PVC i.place_race c.ageV1 i.female i.cvdV1 c.bmiV1 c.whrV1 c.tchV1 c.hdlV1 c.trigV1 i.cholmedV1 c.leisureV1 i.cursmkV1 i.curdrkV1 i.dmV1 i.plaqueV1 i.htnV1 i.htnmedV1 c.sbpV1 c.dbpV1 c.eGFRckdepiV1  c.vrate i.mbeat3_ i.ASA_V1 i.anticoag_V1 i.AVNmedV1 i.abnPax i.aPTFv1_ i.aPR i.AFany i.PAC_ i.score45 c.qrsd c.qtc i.BBBIVCD i.ecgLVH
 estat phtest, det
@@ -411,7 +413,7 @@ estat phtest, det
 stcox c.z_QRS_TV1 c.z_qtcV1 c.z_qrsdV1 i.ecgLVHV1 i.PVCV1 i.place_race c.ageV1 i.female i.cvdV1   i.BBBIVCDV1 
 estat phtest, det
 
-****time-updated model 5 sensitivity analysis
+****time-updated model 5 sensitivity analysis. use long file
 stcox i.IBBB i.PVC i.place_race c.ageV1 i.female i.cvdV1   c.vrate i.mbeat3_ i.ASA_V1 i.anticoag_V1 i.AVNmedV1 i.abnPax i.aPTFv1_ i.aPR i.AFany i.PAC_ i.score45 c.qrsd c.qtc i.BBBIVCD i.ecgLVH
 estat phtest, det
 
