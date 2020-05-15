@@ -3,7 +3,7 @@ statistical analysis code
 
 ## Description
 This repository is for STATA code developed by Larisa Tereshchenko for statistical analysis of the data. I provide this code in the spirit of openness, to enable replication of my analyses. The details of used data, and full description of statistical methods are provided in the manuscripts. 
-Disclaimer: I use the standard STATA code. I use STATA code that was written by the STATA statisticians and contributors and that I learned on various STATA training, classes, blogs, webinars, books, journals, etc. (which are, by the way, awesome!). I provide all citations on sources and methods in my manuscripts. This repository is a technical repository of STATA code. I do not claim an invention of the code, or any novelty. I also do not accept grievances from other investigators who may use the same code. See my manuscripts for citations and references.
+Disclaimer: I use the standard STATA code. I use STATA code that was written by the STATA statisticians and contributors and that I learned from various STATA training, classes, blogs, webinars, books, journals, etc. (which are, by the way, awesome!). I provide all citations on sources and methods in my manuscripts. This repository is a technical repository of STATA code. I do not claim an invention of the code, or any novelty. I also do not accept grievances from other investigators who may use the same code. See my manuscripts for citations and references.
  
 ### Author
 Larisa Tereshchenko, MD, PhD, <tereshch@ohsu.edu>
