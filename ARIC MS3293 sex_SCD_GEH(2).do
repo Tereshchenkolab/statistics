@@ -1,3 +1,9 @@
+*****analysis of ARIC approved manuscript #3293
+***by Larisa Tereshchenko <tereshch@ohsu.edu>
+***February 2019
+***use STATA 15 or later
+***Time-updated Cox and competing risk models using long data file
+
 gen trSVGaz = (SVGaz*2)+360
 gen trpSVGaz = (pSVGaz*2)+360
 
