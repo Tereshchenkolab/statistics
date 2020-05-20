@@ -1,3 +1,8 @@
+****analysis of ARIC approved manuscript #3293
+***by Larisa Tereshchenko <tereshch@ohsu.edu>
+***February 2019
+***use STATA 15 or later
+***Cox and competing risk models using wide file
 *** generate standardized exposure variables for all 9 variables, in all participants together
 sum QRS_TmV1 
 gen z_QRS_TV1 = (QRS_TmV1 - r(mean))/r(sd)
