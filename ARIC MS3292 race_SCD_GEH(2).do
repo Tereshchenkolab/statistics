@@ -1,6 +1,8 @@
-
-***use long file
-use "D:\Lora_new\my papers\2019\2019_GEH_SCD_race_Kelly\stata_data\ARIC_GEH_race_long_8_9_19.dta"
+***Analysis of the data for ARIC MS 3292
+***by Larisa Tereshchenko <tereshch@ohsu.edu>
+***August 2019
+***use STATA 15
+***use long data file for time-updated survival analysis
 
 
 gen trSVGaz = (SVGaz*2)+360
