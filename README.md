@@ -16,7 +16,7 @@ See files: JHS P1224 V3 crossectional ML.do (machine learning analyses) and JHS 
 See file ARIC MS3333 GEH_stroke.do -  Survival analysis. Cox regression. Preprint: https://doi.org/10.1101/2020.05.04.20090910
 
 ### Manuscript: ARIC approved manuscript #3293
-See files ARIC MS3293 GEH_SCD_sex.do  - Survival analysis. Cox and competing risk regression. Preprint: https://doi.org/10.1101/674689 
+See files ARIC MS3293 sex_SCD_GEH.do  - Survival analysis. Cox and competing risk regression. Preprint: https://doi.org/10.1101/674689 
 
 ### Manuscript: ARIC approved manuscript #
 See _____ file
