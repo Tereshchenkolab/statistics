@@ -22,7 +22,8 @@ See files ARIC MS3293 sex_SCD_GEH.do  - Survival analysis. Cox and competing ris
 ### Manuscript: ARIC approved manuscript #3292
 See files ARIC MS3292 race_SCD_GEH.do - Survival analysis. Cox and competing risk regression. Preprint:  https://doi.org/10.1101/19009167. Published: https://doi.org/10.1161/JAHA.119.015012
 
+### Manuscript: ALLHAT causal mediation analysis by dynamic eGFR  
+See file mediation dynamic GFR ALLHAT.do Causal mediation analysis 
+
 ### Manuscript: 
 See ____ file 
-
-
