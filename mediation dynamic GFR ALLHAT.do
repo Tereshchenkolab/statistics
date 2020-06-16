@@ -1,4 +1,8 @@
-use "data file in your data folder"
+****analysis of ALLHAT dataset provided by BioLINCC
+***by Larisa Tereshchenko <tereshch@ohsu.edu>
+***May-June 2020
+***use STATA 16 or later
+***causal mediation analysis developed by VanderWeele et al. 
 
 gen GFRdyn = gfrm48 - blgfr
 gen GFRdyn24 = gfrm24 - blgfr
