@@ -11,7 +11,7 @@ Larisa Tereshchenko, MD, PhD, <tereshch@ohsu.edu>
 
   
 ### Manuscript: JHS approved manuscript proposal P1224
-See files: JHS P1224 V3 crossectional ML.do (machine learning analyses) and JHS P1224 V3 crossectional.do (mixed models with random intercept)
+See files: JHS P1224 V3 crossectional ML.do (machine learning analyses) and JHS P1224 V3 crossectional.do (mixed models with random intercept). Preprint: https://doi.org/10.1101/2020.07.02.20145128
 
 ### Manuscript: ARIC approved manuscript #3333
 See file ARIC MS3333 GEH_stroke.do -  Survival analysis. Cox regression. Preprint: https://doi.org/10.1101/2020.05.04.20090910
