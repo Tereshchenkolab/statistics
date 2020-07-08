@@ -2,7 +2,12 @@
 ***code developed by Larisa Tereshchenko <tereshch@ohsu.edu>
 ***March-June 2020
 ***use Stata 16
+***I acknowledge use of code developed by Schonlau and Zou for the random forests algorithm. 
+***I acknowledge use of BRAIN Stata module to provide neural network [by Thorsten Doherr].
+***see all citations in the manuscript or preprint
 
+
+***define study outcome
 gen response3 = 1 if reldif_lvesv <-0.15
 recode response3 (.=0) if reldif_lvesv !=.
 gen response4 = 1 if rel_lvesvi_diff <-0.15
@@ -79,7 +84,7 @@ svyset [pweight= _webal]
 svy: logit compResp2 female, or
 
 ***ML
-set seed 9693
+set seed 1234
 splitsample, generate(sample) split(0.8 0.2 ) bal(female)  show
 
 
@@ -159,10 +164,10 @@ hl compResp2 yCNN
 egen decyCNN=cut( yCNN ), at(0(0.1)1)
 hl compResp2 yCNN , q(decyCNN) plot
 
-***random forest 
+***random forests 
 *** step 1. figure out how large the value of iterations() need to be
 
-set seed 9693
+set seed 1234
 generate u = uniform()
 sort u, stable
 
@@ -215,7 +220,7 @@ frame put val_error nvars, into(mydata)
  frame drop mydata
 display "Minimum Error: `min_val_err'; Corresponding number of variables `min_nvars''"
 
-***final random forest model
+***final random forests model
 rforest compResp2 age female white cm primary smk htn diabetes autoimm avb_any  conduction revasc valve pm_implant cancer copd sleep_apnea renal weight_kg height_cm bmi bpsys bpdia hrrest NYHA qrs pr bb ace_arb eGFRckdepi  sixminutewalk potassium sodium  crp bnp qol lvesvi lvedvi lvesdi lveddi lvef spiro RAO  if sample==1, type(class) iterations(500) numvars(7)
 
 display e(OOB_Error)
