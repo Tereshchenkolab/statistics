@@ -26,7 +26,7 @@ See files ARIC MS3292 race_SCD_GEH.do - Survival analysis. Cox and competing ris
 See file mediation dynamic GFR ALLHAT.do Causal mediation analysis.  Preprint:  https://doi.org/10.1101/2020.06.15.20132241 . 
 
 ### Manuscript: SMART-AV machine learning and sex effect balancing
-See file SMART_AV_sex.do - entropy balancing approach and machine learning analyses. Preprint: 
+See file SMART_AV_sex.do - entropy balancing approach and machine learning analyses. Preprint: https://doi.org/10.1101/2020.07.16.20155424
 
 ### Manuscript: 
 See file  
