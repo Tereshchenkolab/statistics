@@ -17,13 +17,13 @@ See files: JHS P1224 V3 crossectional ML.do (machine learning analyses) and JHS 
 See file ARIC MS3333 GEH_stroke.do -  Survival analysis. Cox regression. Preprint: https://doi.org/10.1101/2020.05.04.20090910
 
 ### Manuscript: ARIC approved manuscript #3293
-See files ARIC MS3293 sex_SCD_GEH.do  - Survival analysis. Cox and competing risk regression. Preprint: https://doi.org/10.1101/674689 
+See files ARIC MS3293 sex_SCD_GEH.do  - Survival analysis. Cox and competing risk regression. Preprint: https://doi.org/10.1101/674689 Published: https://doi.org/10.1016/j.cvdhj.2020.08.003
 
 ### Manuscript: ARIC approved manuscript #3292
 See files ARIC MS3292 race_SCD_GEH.do - Survival analysis. Cox and competing risk regression. Preprint:  https://doi.org/10.1101/19009167. Published: https://doi.org/10.1161/JAHA.119.015012
 
 ### Manuscript: ALLHAT causal mediation analysis by dynamic eGFR  
-See file mediation dynamic GFR ALLHAT.do Causal mediation analysis.  Preprint:  https://doi.org/10.1101/2020.06.15.20132241 . 
+See file mediation dynamic GFR ALLHAT.do Causal mediation analysis.  Preprint:  https://doi.org/10.1101/2020.06.15.20132241 . Published: https://www.jacc.org/doi/10.1016/j.jchf.2020.09.006 
 
 ### Manuscript: SMART-AV machine learning and sex effect balancing
 See file SMART_AV_sex.do - entropy balancing approach and machine learning analyses. Preprint: https://doi.org/10.1101/2020.07.16.20155424
