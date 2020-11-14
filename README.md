@@ -4,7 +4,7 @@ statistical analysis code
 ## Description
 This repository is for STATA code written by Larisa Tereshchenko for statistical analysis of the data. I provide this code in the spirit of openness, to enable replication of my analyses. The details of used data, and full descriptions of statistical methods are provided in the manuscripts. 
 This repository is a technical repository of STATA code. See my manuscripts for Methods, Citations, and References. 
-Note: See manuscript-specific repositories for statistical analyses code if a manuscript shares ECG signal processing code, or any other data analyses code, which is provided in a corresponding repository.
+Note: See study-specific or manuscript-specific repositories for statistical analyses code if a manuscript shares data, ECG signal processing code, or any other data analyses code, which is provided in a corresponding repository.
  
 ### Author
 Larisa Tereshchenko, MD, PhD, <tereshch@ohsu.edu>
