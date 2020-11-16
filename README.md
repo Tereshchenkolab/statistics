@@ -26,7 +26,7 @@ See files ARIC MS3292 race_SCD_GEH.do - Survival analysis. Cox and competing ris
 See file mediation dynamic GFR ALLHAT.do Causal mediation analysis.  Preprint:  https://doi.org/10.1101/2020.06.15.20132241 . Published: https://www.jacc.org/doi/10.1016/j.jchf.2020.09.006 
 
 ### Manuscript: SMART-AV machine learning and sex effect balancing
-See file SMART_AV_sex.do - entropy balancing approach and machine learning analyses. Preprint: https://doi.org/10.1101/2020.07.16.20155424
+See file SMART_AV_sex.do -(1) counterfactual framework for causal inference: augmented-inverse-probability-weighted (AIPW) estimators, and entropy balancing approach. (2) machine learning analyses. Preprint: https://doi.org/10.1101/2020.07.16.20155424
 
 ### Manuscript: 
 See file  
