@@ -78,10 +78,17 @@ tab compResp2
 
 logit compResp2 female, or
 
-***matching balancing male and female characteristics
+***matching balancing male and female characteristics (used in the 1st preprint version)
 ebalance female c.age i.white i.cm i.primary i.smk i.htn i.diabetes i.avb_any i.conduction i.revasc i.valve i.cancer i.copd i.sleep_apnea i.renal c.bmi i.NYHA c.qrs c.pr i.bb i.ace_arb i.spiro c.eGFRckdepi c.sixminutewalk c.lvesvi c.lvedvi c.lvef c.qol c.lvesdi c.lveddi
 svyset [pweight= _webal]
 svy: logit compResp2 female, or
+
+***augmented-inverse-probability-weighted (AIPW) estimator used for paper version November 2020 (causal inference: causal effect of sex on CRT response).
+teffects aipw (compResp c.age i.white i.cm i.primary i.smk i.htn i.diabetes i.autoimm i.avb_any i.conduction i.revasc i.valve  i.cancer i.copd i.sleep_apnea i.renal c.bpdia c.bpsys i.NYHA c.qrs c.pr i.bb i.ace_arb  c.lvef c.bsa c.bmi c.lvedvi c.lvesdi c.lveddi c.lvesvi c.hrrest c.eGFRckdepi i.spiro, logit )(female c.age i.white i.cm i.primary i.smk i.htn i.diabetes i.autoimm i.avb_any i.conduction i.revasc i.valve  i.cancer i.copd i.sleep_apnea i.renal c.bpdia c.bpsys i.NYHA c.qrs c.pr i.bb i.ace_arb  c.lvef c.bsa c.bmi c.lvedvi c.lvesdi c.lveddi c.lvesvi c.hrrest c.eGFRckdepi i.spiro, logit ), pstolerance(1e-10)
+di exp(-.1302377)
+di exp(-.8953017)
+di exp(.6348262)
+tebalance overid
 
 ***ML
 set seed 1234
