@@ -10,6 +10,9 @@ Note: See study-specific or manuscript-specific repositories for statistical ana
 Larisa Tereshchenko, MD, PhD, <tereshch@ohsu.edu>
 
   
+### Manuscript: MESA approved manuscript proposal AM084
+See file MESA_AM084.do (Bland-Altman analysis)
+
 ### Manuscript: JHS approved manuscript P1224
 See files: JHS P1224 V3 crossectional ML.do (machine learning analyses) and JHS P1224 V3 crossectional.do (mixed models with random intercept). Preprint: https://doi.org/10.1101/2020.07.02.20145128
 
