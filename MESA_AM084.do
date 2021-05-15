@@ -142,6 +142,47 @@ gen logQTVMimean1 = logVMQTi1 -  4.529156
 sum logVMQTi2
 gen logQTVMimean2 = logVMQTi2 -   4.526773
 
+
+***coefficient of variation
+help cv
+reg HR1 HR2
+cv
+reg peakQRSTAngle_deg1 peakQRSTAngle_deg2
+cv
+reg areaQRSTAngle_deg1 areaQRSTAngle_deg2
+cv
+reg peakSVGElevation_deg1 peakSVGElevation_deg2
+cv
+reg areaSVGElevation_deg1 areaSVGElevation_deg2
+cv
+reg peakSVGMagnitude_mV1 peakSVGMagnitude_mV2
+cv
+reg VMQTi1 VMQTi2
+cv
+reg WilsonSVG_mVms1 WilsonSVG_mVms2
+cv
+reg SAIQRST1 SAIQRST2
+cv
+reg trpSVGaz1 trpSVGaz2
+cv
+reg traSVGaz1 traSVGaz2
+cv
+
+*** intercalss correlation coefficient or Cronbach's alpha
+alpha HR1 HR2, std item detail
+alpha HR1 HR2, std
+alpha peakQRSTAngle_deg1 peakQRSTAngle_deg2, std
+alpha areaQRSTAngle_deg1 areaQRSTAngle_deg2, std
+alpha peakSVGElevation_deg1 peakSVGElevation_deg2, std
+alpha areaSVGElevation_deg1 areaSVGElevation_deg2, std
+alpha peakSVGMagnitude_mV1 peakSVGMagnitude_mV2, std
+alpha VMQTi1 VMQTi2, std
+alpha WilsonSVG_mVms1 WilsonSVG_mVms2, std
+alpha SAIQRST1 SAIQRST2, std
+alpha trpSVGaz1 trpSVGaz2, std
+alpha traSVGaz1 traSVGaz2, std
+
+
 ***prepare graphs
 graph combine aQRST_N.gph aQRST_S.gph  aQRST_VP.gph ,  imargin(1 1 1 1) xcom ycom rows(1) cols(3)  iscale(*.8)
 graph combine aQRST_Nless6.gph  aQRST_N7_9.gph  aQRST_Nabove10.gph ,  imargin(1 1 1 1) xcom ycom rows(1) cols(3)  iscale(*.8)
