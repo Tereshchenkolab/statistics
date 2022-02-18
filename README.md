@@ -9,6 +9,9 @@ Note: See study-specific or manuscript-specific repositories for statistical ana
 ### Author
 Larisa Tereshchenko, MD, PhD.
 
+### Manuscript: Protection Against the Omicron Variant Offered by Previous SARS-CoV-2 Infection: A Retrospective Cohort Study
+See file Omicron_CCF_2_7_22_github.do (adjusted preventable fraction)
+
 ### Manuscript: Risk of Cardiovascular Events after Covid-19: a double-cohort study (https://clinicaltrials.gov/ct2/show/NCT04555187). 
 See File Covid19 study analysis GitHub.do (survival analysis, including causal inference).
   
