@@ -1,5 +1,5 @@
 ***STATA code developed by Larisa Tereshchenko <tereshl@ccf.org> 
-***January 2021
+***January 2022
 ***use STATA 17
 
 use "CONFIDENTIAL_pos_retests_merged.dta"
