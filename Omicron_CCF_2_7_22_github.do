@@ -1,3 +1,7 @@
+***STATA code developed by Larisa Tereshchenko <tereshl@ccf.org> 
+***January 2021
+***use STATA 17
+
 use "CONFIDENTIAL_pos_retests_merged.dta"
 *** adjusted preventable fraction
 logistic  hosp_omicron i.sex c.age_in_yrsx  i.wave_pos c.time i.vaccine i.sympt_omicron
