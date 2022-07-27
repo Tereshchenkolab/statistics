@@ -9,11 +9,13 @@ Note: See study-specific or manuscript-specific repositories for statistical ana
 ### Author
 Larisa Tereshchenko, MD, PhD.
 
+### Manuscript: An electrophysiological substrate of COVID-19. See file CaVaR-Co19_ECG_github.do Multiple imputations of panel data. Adjusted linear random effect panel data models. 
+
 ### Manuscript: Protection Against the Omicron Variant Offered by Previous SARS-CoV-2 Infection: A Retrospective Cohort Study
-See file Omicron_CCF_2_7_22_github.do (adjusted preventable fraction)
+See file Omicron_CCF_2_7_22_github.do (adjusted preventable fraction). Published: https://pubmed.ncbi.nlm.nih.gov/35867678/.
 
 ### Manuscript: Risk of Cardiovascular Events after Covid-19: a double-cohort study (https://clinicaltrials.gov/ct2/show/NCT04555187). 
-See File Covid19 study analysis GitHub.do (survival analysis, including causal inference).
+See File Covid19 study analysis GitHub.do (survival analysis, including causal inference). Published: https://pubmed.ncbi.nlm.nih.gov/35843735.
   
 ### Manuscript: MESA approved manuscript AM084
 See file MESA_AM084.do (Bland-Altman analysis). Preprint: https://doi.org/10.1101/2021.06.07.21258521. Published: https://pubmed.ncbi.nlm.nih.gov/34626835/
