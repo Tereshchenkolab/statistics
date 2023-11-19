@@ -9,7 +9,15 @@ Note: See study-specific or manuscript-specific repositories for statistical ana
 ### Author
 Larisa Tereshchenko, MD, PhD.
 
-### Manuscript: An electrophysiological substrate of COVID-19. See file CaVaR-Co19_ECG_github.do Multiple imputations of panel data. Adjusted linear random effect panel data models. 
+
+### Manuscript: 
+See file  
+
+### Manuscript: HCHS/SOL approved MS# 0924 Global Electrical Heterogeneity in Hispanic/Latino Adults: Implications for Subclinical Cardiovascular Disease and Sex Differences: The Hispanic Community Health Study/Study of Latinos.
+See ____ file 
+
+### Manuscript: An electrophysiological substrate of COVID-19. 
+See file CaVaR-Co19_ECG_github.do Multiple imputations of panel data. Adjusted linear random effect panel data models. Published: https://pubmed.ncbi.nlm.nih.gov/36963283/ 
 
 ### Manuscript: Protection Against the Omicron Variant Offered by Previous SARS-CoV-2 Infection: A Retrospective Cohort Study
 See file Omicron_CCF_2_7_22_github.do (adjusted preventable fraction). Published: https://pubmed.ncbi.nlm.nih.gov/35867678/.
@@ -38,9 +46,4 @@ See file mediation dynamic GFR ALLHAT.do Causal mediation analysis.  Preprint:  
 ### Manuscript: SMART-AV machine learning and sex differences
 See file SMART_AV_sex.do -(1) counterfactual framework for causal inference: augmented-inverse-probability-weighted (AIPW) estimators, and entropy balancing approach. (2) machine learning analyses. Preprint: https://doi.org/10.1101/2020.07.16.20155424. Published: https://pubmed.ncbi.nlm.nih.gov/34706949/ and https://pubmed.ncbi.nlm.nih.gov/34454883/.
 
-### Manuscript: 
-See file  
-
-### Manuscript: 
-See ____ file 
 
