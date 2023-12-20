@@ -10,8 +10,14 @@ Note: See study-specific or manuscript-specific repositories for statistical ana
 Larisa Tereshchenko, MD, PhD.
 
 
+
+
+
 ### Manuscript: 
 See file  
+
+### Manuscript: Prevention of Heart Failure in Hypertension – the Role of Coronary Heart Disease Events Treated with Versus without Revascularization: the ALLHAT Study. 
+See file  CHDevent_mediation_ALLHAT_github.do
 
 ### Manuscript: HCHS/SOL approved MS# 0924 Global Electrical Heterogeneity in Hispanic/Latino Adults: Implications for Subclinical Cardiovascular Disease and Sex Differences: The Hispanic Community Health Study/Study of Latinos.
 See file HCHS_SOL_MS_0924_svy_LCA GEH_GitHub_5_7_23.do
