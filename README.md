@@ -16,12 +16,11 @@ Larisa Tereshchenko, MD, PhD.
 ### Manuscript: 
 See file  
 
-### Manuscript: Prevention of Heart Failure in Hypertension – the Role of Coronary Heart Disease Events Treated with Versus without Revascularization: the ALLHAT Study. 
+### Manuscript: Prevention of Heart Failure in Hypertension – the Role of Coronary Heart Disease Events Treated with Versus without Revascularization: the ALLHAT Study. Published: https://pubmed.ncbi.nlm.nih.gov/39243877/ 
 See file  CHDevent_mediation_ALLHAT_github.do
 
-### Manuscript: HCHS/SOL approved MS# 0924 Global Electrical Heterogeneity in Hispanic/Latino Adults: Implications for Subclinical Cardiovascular Disease and Sex Differences: The Hispanic Community Health Study/Study of Latinos.
+### Manuscript: HCHS/SOL approved MS# 0924 Global Electrical Heterogeneity in Hispanic/Latino Adults: Implications for Subclinical Cardiovascular Disease and Sex Differences: The Hispanic Community Health Study/Study of Latinos. Published: https://pubmed.ncbi.nlm.nih.gov/39318685/ https://pubmed.ncbi.nlm.nih.gov/39817081/ https://pubmed.ncbi.nlm.nih.gov/40224258/ 
 See file HCHS_SOL_MS_0924_svy_LCA GEH_GitHub_5_7_23.do
-
 
 ### Manuscript: An electrophysiological substrate of COVID-19. 
 See file CaVaR-Co19_ECG_github.do Multiple imputations of panel data. Adjusted linear random effect panel data models. Published: https://pubmed.ncbi.nlm.nih.gov/36963283/ 
